@@ -1,14 +1,65 @@
+Ez 38:2
+
+
+
+Ez 38:3
+
+h559	[say]
+h3541	[thus]
+h559	[say]
+h136	[The Lord]
+h3069	[YHWH]
+h2005	[behold]
+h413	[motion-toward/approaching-to-near-contact/opposition-force]
+h1463	[Gog = mountain, son of Shemaiah, Ruebenite]
+h7218	[Rosh = summit/chief/head]
+h5387	[chief/ruler/rising-vapour/transient-office]
+h4902	[Meshech = drawing out]
+	Also called Moschia people group, connected with mountainous region currently Georgia-Russia border, related to Tubal in Genesis table of nations
+h8422	[Tubal = thou shalt be brought]
+	Connected with people group in Cappadocia (central Turkey).
+
 Ez 38:4
 
-h7725	[return back to origin]		put you back in your place
-h5414	[ -> present a token -> ]			give 
+h7725	[return-back-to-origin/retrace-steps/u-turn]
+h5414	[ -> present a token -> ]
 h2397	[a chained hook]
 h3895	[cheek bone]
+
 h3318	[mobilize]
-h853	[ -> it's you <- ]
+h853	[ -> it's-you/accusative <- ]
 h3318	[mobilize]
-h853	[it's you]
+
+h853	[it's-you/accusative]
+
 h3605	[100%]
-h2428	[armed forces]
-h5483	[to leap swiftly]
-h6571	[fighting vehicle]
+h2428	[armed-forces/servicemen]
+h5483	[swift leaping]
+h6571	[fighting vehicle(s)]
+
+h3605	[100%]
+h3847	[dressed/arrayed/armed]
+h4358	[uniformed]
+
+h6951	[assembly/company]
+h7227	[ -> overwhelming <- ]
+h6951	[assembly/company]
+
+h6793	[mobile attack surface]
+h4043	[defense/shield]
+
+h3605	[100%]
+h8610	[arrest/grasp/manually-control]
+h2719	[offensive weaponry]
+
+Ez 38:5
+
+h6539	[Persia]
+h3568	[Ethiopia]
+h6316	[Libya]
+
+h854	[in-company-with/formation-movement/wingman-relationship]
+h4043	[defense/shield]
+h3553	[helmet]
+
+Ez 38:6
