@@ -46,11 +46,12 @@ a:hover {
 	border:0 0 0 0;
 	width:100%;
 	background-image: url("pics/field-background.png");
+	background-size: cover;
 }
 .bannerimg {
 	width:auto;
 	max-width:100%;
-	max-height:90px;
+	max-height:80px;
 }
 .linksbanner {
 	margin:0 0 0 0;
