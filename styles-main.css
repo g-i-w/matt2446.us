@@ -18,11 +18,14 @@ img {
 	border: 0 0 0 0;
 }
 iframe {
+	border:0 0 0 0;
+	border-width:0;
+	overflow:clip;
 	position:relative;
 	display:inline-block;
 	height:100px;
 	width:200px;
-	margin:0 8px 0 0;
+	margin:0 0 0 0;
 }
 p {
 	position:relative;
@@ -100,6 +103,8 @@ a:hover {
 	color:#808020;
 }
 .content {
+	width:100%;
+	height:800px;
 	border-bottom:none;
 	vertical-align:middle;
 	padding: 0 0 0 0;
