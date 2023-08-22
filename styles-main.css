@@ -1,19 +1,28 @@
 div {
-	margin:8px 16px 8px 16px;
-	padding:16px 0 16px 0;
+	/*margin:8px 16px 8px 16px;*/
+	/*padding:16px 0 16px 0;*/
 	border:0 0 0 0;
 	left:0px;
 	font-family:sans-serif;
 	border-bottom:solid #808020 2px;
 	overflow:clip;
 }
+
 body {
 	margin:0 0 0 0;
 	padding:0 0 0 0;
 	border:0 0 0 0;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-image:url('pics/sun-rays.jpg');
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 img {
-	max-width:200px;
+	max-width:250px;
 	margin:0 8px 0 0;
 	border: 0 0 0 0;
 }
@@ -40,7 +49,8 @@ a {
 	font-weight:bold;
 	text-decoration:none;
 	font-size:12px;
-	color:#004080;
+	/*color:#004080;*/
+	color:white;
 }
 a:hover {
 	text-decoration:underline;
@@ -51,8 +61,9 @@ a:hover {
 	padding:0 0 0 0;
 	border:0 0 0 0;
 	width:100%;
-	background-image: url("pics/field-background.png");
-	background-size: cover;
+	/*background-image: url("pics/field-background.png");
+	background-size: cover;*/
+	/*background-color:rgba(255,255,255,.2);*/
 }
 .topbanneritem {
 	border-bottom:none;
@@ -60,19 +71,22 @@ a:hover {
 	vertical-align:middle;
 	padding:8px 8px 8px 8px;
 	color:#004080;
+	margin:8px;
 }
 .linksbanner {
 	border-bottom:none;
 	margin:0 0 0 0;
-	padding:0 0 16px 0;
+	/*padding:0 0 16px 0;*/
 	vertical-align:middle;
-	background-color:#004080;
+	/*background-color:#004080;*/
+	background-color:rgba(0,64,128,.8);
 	color:white;
 	font-size:10px;
 }
 .linksbanneritem {
 	display:inline-block;
 	overflow:hidden;
+	margin:16px;
 }
 .linksbannerimg {
 	width:auto;
@@ -92,10 +106,17 @@ a:hover {
 	width:100%;
 }
 .sitesdiv {
+	width:100%;
+	height:10%;
 	color:white;
 	border-bottom:none;
 	overflow:clip;
-	padding: 0 0 0 0;
+	/*padding: 0 0 0 0;*/
+	background-color:rgba(0,64,128,.8);
+}
+.sitesitem {
+	display:inline-block;
+	margin:16px;
 }
 .sitesheadline {
 	font-size:24px;
@@ -103,11 +124,19 @@ a:hover {
 	color:#808020;
 }
 .content {
-	width:100%;
-	height:800px;
+	display:inline-block;
+	max-width:250px;
+	min-height:200px;
 	border-bottom:none;
 	vertical-align:middle;
-	padding: 0 0 0 0;
+	padding: 0px;
+	margin: 32px;
 	overflow:clip;
+	background-color:rgba(0,0,0,.25);
 }
+.content p {
+	margin:8px;
+	color:white;
+}
+
 
