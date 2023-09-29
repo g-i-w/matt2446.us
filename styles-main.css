@@ -3,7 +3,7 @@ div {
 	left:0px;
 	font-family:sans-serif;
 	/*border-bottom:solid #808020 2px;*/
-	border-bottom:solid rgb(0,48,96) 2px;
+	/*border-bottom:solid rgb(0,48,96) 2px;*/
 	overflow:clip;
 }
 
@@ -77,6 +77,7 @@ a:hover {
 	font-size:10px;
 }
 .linksbanneritem {
+	vertical-align:top;
 	display:inline-block;
 	overflow:hidden;
 	margin:16px;
@@ -92,7 +93,8 @@ a:hover {
 	font-size:16px;
 	display:inline-block;
 	vertical-align:middle;
-	color:#c0c040;
+	/*color:#d0d040;*/
+	color:rgba(255,255,255,.8);
 	margin: 2px 8px 2px 8px;
 }
 .maindiv {
@@ -107,17 +109,27 @@ a:hover {
 	background-color:rgba(0,64,128,.8);
 }
 .sitesitem {
+	vertical-align:top;
 	display:inline-block;
-	margin:16px;
+	margin:48px;
 }
 .sitesheadline {
 	font-size:24px;
 	text-decoration:none;
 	/*color:#808020;*/
-	color:rgb(0,48,96);
-	background-color:rgba(255,255,255,.1);
+	/*color:rgb(0,48,96);*/
+	color:rgba(255,255,255,0.7);
+	/*background-color:rgba(255,255,255,.1);
+	border-bottom:solid rgb(0,48,96) 2px;*/
+}
+.breakbanner {
+	font-size:24px;
+	/*text-decoration:none;*/
+	/*background-color:rgba(255,255,255,0.2);*/
+	color:rgba(0,48,96,0.7);
+	/*color:rgba(255,255,255,0.8);*/
 	padding:8px;
-	border-bottom:solid rgb(0,48,96) 2px;
+	margin:0 32px 0 32px;
 }
 .content {
 	display:inline-block;
