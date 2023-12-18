@@ -138,7 +138,7 @@ a:hover {
 	border-bottom:none;
 	vertical-align:middle;
 	padding: 0px;
-	margin: 16px;
+	margin: 16px 8px 16px 8px;
 	overflow:clip;
 	background-color:rgba(0,0,0,.5);
 }
