@@ -6,7 +6,10 @@ div {
 	/*border-bottom:solid rgb(0,48,96) 2px;*/
 	/*overflow:clip;*/
 }
-
+h1 {
+	margin:8px 8px 8px 8px;
+	color:white;
+}
 body {
 	margin:0 0 0 0;
 	padding:0 0 0 0;
@@ -42,9 +45,9 @@ p {
 	vertical-align:top;
 	display:inline-block;
 	font-size:12px;
-	margin:0 16px 8px 0;
-	color:black;
+	color:white;
 	height:auto;
+	margin:8px 8px 8px 8px;
 }
 a {
 	font-weight:bold;
@@ -61,12 +64,12 @@ a:hover {
 	padding:0 0 0 0;
 	border:0 0 0 0;
 	width:100%;
+	background-color:rgba(0,0,0,.4);
 }
 .topbanneritem {
 	border-bottom:none;
 	display:inline-block;
 	vertical-align:middle;
-	padding:8px 8px 8px 8px;
 	color:#004080;
 	margin:24px;
 }
@@ -137,15 +140,10 @@ a:hover {
 	display:inline-block;
 	width:300px;
 	border-bottom:none;
-	vertical-align:middle;
+	vertical-align:top;
 	padding: 0px;
 	margin: 16px 8px 16px 8px;
 	overflow:clip;
-	background-color:rgba(0,0,0,.5);
+	background-color:rgba(0,0,0,.4);
 }
-.content p {
-	margin:8px;
-	color:white;
-}
-
 
