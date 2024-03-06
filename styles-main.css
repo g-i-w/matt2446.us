@@ -149,7 +149,7 @@ a:hover {
 }
 .content-header div {
 	display:inline-block;
-	vertical-align:top;
+	vertical-align:middle;
 }
 .content-header h3 {
 	margin-top:8px;
