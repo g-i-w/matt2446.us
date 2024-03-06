@@ -145,11 +145,14 @@ a:hover {
 	color:white;
 	background-color:rgba(0,32,64,.8);
 	height:44px;
-	padding:8px;
+	padding:8px 0 8px 16px;
 }
 .content-header div {
 	display:inline-block;
-	vertical-align:middle;
+	vertical-align:top;
+}
+.content-header h3 {
+	margin-top:8px;
 }
 .content-text {
 	color:black;
