@@ -6,8 +6,8 @@ div {
 	/*border-bottom:solid rgb(0,48,96) 2px;*/
 	/*overflow:clip;*/
 }
-h1 {
-	margin:8px 8px 8px 8px;
+h1,h2 {
+	margin:8px 16px 8px 16px;
 	color:white;
 }
 body {
@@ -17,10 +17,10 @@ body {
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-image:url('pics/sun-rays.jpg');
+	background-image:url('pics/sun-rays-2.png');
 	background-attachment:fixed;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: top;
 	background-size: cover;
 	background-color:black;
 }
@@ -44,10 +44,10 @@ p {
 	position:relative;
 	vertical-align:top;
 	display:inline-block;
-	font-size:12px;
+	font-size:14px;
 	color:white;
 	height:auto;
-	margin:8px 8px 8px 8px;
+	margin:8px 16px 8px 16px;
 }
 a {
 	font-weight:bold;
@@ -144,6 +144,6 @@ a:hover {
 	padding: 0px;
 	margin: 16px 8px 16px 8px;
 	overflow:clip;
-	background-color:rgba(0,0,0,.4);
+	background-color:rgba(0,0,0,.5);
 }
 
