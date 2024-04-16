@@ -46,10 +46,25 @@ p {
 	height:auto;
 	margin:8px 16px 8px 16px;
 }
+table {
+	margin:0 8px 0 8px;
+}
+td {
+	vertical-align:top;
+	padding:4px;
+	font-size:14px;
+}
+li {
+	font-size:14px;
+}
 a {
 	font-weight:bold;
 	text-decoration:none;
 	color:white;
+}
+.icon-char {
+	font-weight:normal;
+	font-size:24px;
 }
 a:hover {
 	text-decoration:underline;
@@ -126,7 +141,7 @@ a:hover {
 .content-header {
 	color:white;
 	background-color:rgba(0,32,64,.8);
-	max-height:44px;
+
 	padding:8px 0 8px 12px;
 }
 .content-header div {
