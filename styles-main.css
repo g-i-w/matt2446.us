@@ -50,7 +50,6 @@ table {
 	margin:0 8px 0 8px;
 }
 td {
-	vertical-align:top;
 	padding:4px;
 	font-size:14px;
 }
@@ -141,7 +140,7 @@ a:hover {
 .content-header {
 	color:white;
 	background-color:rgba(0,32,64,.8);
-
+	overflow:auto;
 	padding:8px 0 8px 12px;
 }
 .content-header div {
@@ -153,6 +152,10 @@ a:hover {
 	margin:0 4px 0 0;
 	padding:0 0 0 0;
 }
+.content-header img {
+	width:auto;
+	max-width:270px;
+}
 .info-paragraph {
 	border-left:solid rgb(0,44,88) 4px;
 	margin:0 16px 0 16px;
@@ -163,6 +166,7 @@ a:hover {
 .content-text {
 	color:black;
 	background-color:white;
+	overflow:auto;
 }
 .content-text a {
 	color:rgb(0,64,128);
