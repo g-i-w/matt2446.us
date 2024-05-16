@@ -26,7 +26,8 @@ body {
 img {
 	width:100%;
 	margin:0 0 0 0;
-	border: 0 0 0 0;
+	border:0 0 0 0;
+	padding:0 0 0 0;
 }
 iframe {
 	border:0 0 0 0;
@@ -136,10 +137,10 @@ a:hover {
 	vertical-align:top;
 	padding: 0px;
 	margin: 16px 8px 16px 8px;
+	background-color:rgba(0,32,64,.8);
 }
 .content-header {
 	color:white;
-	background-color:rgba(0,32,64,.8);
 	overflow:auto;
 	padding:8px 0 8px 12px;
 }
@@ -151,10 +152,6 @@ a:hover {
 .content-header h3 {
 	margin:0 4px 0 0;
 	padding:0 0 0 0;
-}
-.content-header img {
-	width:auto;
-	max-width:270px;
 }
 .info-paragraph {
 	border-left:solid rgb(0,44,88) 4px;
