@@ -139,6 +139,10 @@ a:hover {
 	margin: 16px 8px 16px 8px;
 	background-color:rgba(0,32,64,.8);
 }
+.scroll {
+	overflow:auto;
+	max-height:450px;
+}
 .content-header {
 	color:white;
 	overflow:auto;
@@ -164,6 +168,7 @@ a:hover {
 	color:black;
 	background-color:white;
 	overflow:auto;
+	padding:0 8px 0 8px;
 }
 .content-text a {
 	color:rgb(0,64,128);
