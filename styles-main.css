@@ -7,6 +7,7 @@ div {
 h1,h2,h3 {
 	color:white;
 	margin:0 0 0 0;
+	font-weight:normal;
 }
 body {
 	font-family:sans-serif;
@@ -61,13 +62,22 @@ a {
 	font-weight:bold;
 	text-decoration:none;
 	color:white;
+	/*background-color:rgba(0,0,0,0.1);*/
+	border-radius:2px;
+	padding:2px;
+	margin-bottom:2px;
 }
 .icon-char {
 	font-weight:normal;
 	font-size:24px;
 }
+.no-border {
+	padding:0;
+	border-radius:0;
+	margin:0;
+}
 a:hover {
-	text-decoration:underline;
+	background-color:rgba(0,0,0,0.2);
 }
 .topbannerdiv {
 	border-bottom:none;
@@ -75,7 +85,7 @@ a:hover {
 	padding:8px 0 8px 0;
 	border:0 0 0 0;
 	width:100%;
-	background-color:rgba(0,0,0,.1);
+	background-color:rgba(0,0,0,0.1);
 }
 .topbanneritem {
 	border-bottom:none;
@@ -93,9 +103,9 @@ a:hover {
 	padding:8px 0 8px 0;
 }
 .linksbanneritem {
-	vertical-align:top;
+	vertical-align:middle;
 	display:inline-block;
-	margin:8px 32px 8px 32px;
+	margin:0 48px 0 32px;
 }
 .linksbannerimg {
 	width:auto;
@@ -109,6 +119,26 @@ a:hover {
 	display:inline-block;
 	vertical-align:middle;
 	font-weight:normal;
+}
+.selected {
+	background-color:rgba(0,0,0,0.1);
+	font-weight:bold;
+}
+.selected span {
+	font-weight:normal;
+}
+.large {
+	margin:16px 32px 16px 32px;
+	color:white;
+	font-size:24px;
+}
+.large td {
+	font-size:24px;
+}
+.linksbannerlink div,i {
+	display:inline-block;
+	margin-right:2px;
+	vertical-align:middle;
 }
 .maindiv {
 	width:100%;
