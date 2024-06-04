@@ -78,7 +78,7 @@
 					</tr>
 					<tr>
 						<td><span class=icon-char>2.</span></td>
-						<td>Obtain a <a href="https://www.amazon.com/Lexar-Micro-microSDXC-Memory-Adapter/dp/B08XQ7R3GC">128GB</a> microSD card</td>
+						<td>Obtain a <a href="https://www.amazon.com/Lexar-Micro-microSDXC-Memory-Adapter/dp/B0C1Y8CS3R">64GB</a> (or larger) microSD card</td>
 					</tr>
 					<tr>
 						<td><span class=icon-char>3.</span></td>
@@ -86,7 +86,19 @@
 					</tr>
 					<tr>
 						<td><span class=icon-char>4.</span></td>
-						<td>Write the image file to the microSD card using a program like <a href="https://etcher.balena.io/#download-etcher">Etcher</a> or a command like <a href="https://www.jamescherti.com/creating-disk-image-unix-linux/">dd</a>.</td>
+						<td>Write the image file to the microSD card using a program like:
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<ul>
+							<li><a href="https://etcher.balena.io/#download-etcher">Etcher</a> (Windows, Mac, Linux)</li>
+							<li><a href="https://www.osforensics.com/tools/write-usb-images.html">ImageUSB</a> (Windows)</li>
+							<li><a href="https://www.tweaking4all.com/software/macosx-software/applepi-baker-v2/">ApplePi-Baker</a> (Mac)</li>
+							<li><a href="https://thelinuxcode.com/clone-disk-using-dd-linux/">dd</a> (Linux, Mac)</li>
+							</ul>
+						</td>
 					</tr>
 					<tr>
 						<td><span class=icon-char>5.</span></td>
@@ -129,9 +141,9 @@
 
 		<div class=content>
 			<div class=content-header>
-				<h3>Bible.Local content (<a href="biblelocalsd-index.html">direct link</a>)</h3>
+				<h3>Bible.Local content <a href="biblelocalsd-index.html"><span style="font-weight:bold;color:white;background-color:gray;border-radius:3px;">&nbsp;direct&nbsp;link&nbsp;</span></a></h3>
 			</div>
-			<iframe src="biblelocalsd-index.html" style="height:450px;"></iframe>
+			<iframe src="biblelocalsd-index.html" style="height:450px;background-color:white;"></iframe>
 		</div>
 
 		<div class=content>
@@ -170,19 +182,30 @@
 					</tr>
 					<tr>
 						<td></td>
-						<td style="font-size:10px;">For BibleSD media, USB flash-drives (32GB) can be used and connected directly.</td>
+						<td style="font-size:10px;">For BibleSD media, USB flash drives (32GB or larger) can be used and connected directly.</td>
 					</tr>
 					<tr>
 						<td><span class=icon-char>5.</span></td>
-						<td>Browse to either http://<b>bible.local/biblesd</b> or http://<b>bible.local/biblelocalsd</b> and click the corresponding <b>Start</b> button.</td>
+						<td>Browse to either http://<b>bible.local:7000/biblesd</b> (BibleSD) or http://<b>bible.local:7000/biblelocalsd</b> (Bible.local) and click the corresponding <span style="font-weight:bold;color:white;background-color:gray;border-radius:3px;">&nbsp;Start&nbsp;</span> button.</td>
 					</tr>
 					<tr>
 						<td><span class=icon-char>6.</span></td>
-						<td>Click <span style="font-weight:bold;color:white;background-color:gray;">&nbsp;Refresh&nbsp;Device&nbsp;List&nbsp;</span> to view attached devices and writing progress.</td>
+						<td>Click <span style="font-weight:bold;color:white;background-color:gray;border-radius:3px;">&nbsp;Refresh&nbsp;Device&nbsp;List&nbsp;</span> to view attached devices and writing progress.</td>
 					</tr>
 					<tr>
 						<td><span class=icon-char>7.</span></td>
 						<td>Remove the corresponding media after <b style="background-color:rgb(200,255,200);">Complete</b> is displayed.</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td style="font-size:10px;">
+						Note for developers or anyone famliar with Linux:<br><br>
+						default login credentials are:<br>user: <b>servant</b><br>
+						password: <b>(John13:13-17)</b><br><br>
+						It's recommended that you first log in and change the password:<br>
+						<code>$ ssh servant@bible.local</code><br>
+						<code>$ passwd</code><br><br>
+						The new login credentials will be carried over to any new <b>Bible.local</b> servers that are cloned.</td>
 					</tr>
 				</table>
 			</div>
