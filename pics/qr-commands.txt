@@ -1,0 +1,3 @@
+qrencode -s 6 -l H --foreground='06014c' --background='ffffff' -o "matt2446.us/pics/bible.local_URL.png" "http://bible.local"
+qrencode -s 6 -l H --foreground='06014c' --background='ffffff' -o "matt2446.us/pics/wifi-wpa.png" "WIFI:T:WPA;R:1;S:Living-Water;P:John4-14;;"
+
