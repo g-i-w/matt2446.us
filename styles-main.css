@@ -108,10 +108,14 @@ a:hover {
 	color:white;
 	padding:8px 0 8px 0;
 }
+.bottombanner {
+	min-height:64px;
+}
 .linksbanneritem {
 	vertical-align:middle;
 	display:inline-block;
 	margin:0 48px 0 32px;
+	min-width:120px;
 }
 .linksbannerimg {
 	width:auto;
