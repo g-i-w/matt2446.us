@@ -1,0 +1,9 @@
+WiFi bridge:
+https://pimylifeup.com/raspberry-pi-wifi-bridge/
+
+Also, add control to configuration.html to allow switching from hosting a WiFi network, to connecting to a WiFi network:
+https://www.makeuseof.com/connect-to-wifi-with-nmcli/
+
+Avahi domain configuration:
+https://www.systutorials.com/docs/linux/man/5-avahi-daemon/
+
