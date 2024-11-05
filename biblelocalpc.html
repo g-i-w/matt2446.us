@@ -34,10 +34,10 @@
 			<a href="biblesd.html" class="linksbannerlink"><i class="material-icons">sd_card</i>&nbsp;&nbsp;<div>BibleSD Cards</div></a>
 		</div>
 		<div class=linksbanneritem>
-			<a href="biblelocalsd.html" class="linksbannerlink selected"><i class="material-icons">wifi</i>&nbsp;&nbsp;<div>Bible.Local RasPi</div></a>
+			<a href="biblelocalsd.html" class="linksbannerlink"><i class="material-icons">wifi</i>&nbsp;&nbsp;<div>Bible.Local RasPi</div></a>
 		</div>
 		<div class=linksbanneritem>
-			<a href="biblelocalpc.html" class="linksbannerlink"><i class="material-icons">wifi</i>&nbsp;&nbsp;<div>Bible.Local PC</div></a>
+			<a href="biblelocalpc.html" class="linksbannerlink selected"><i class="material-icons">wifi</i>&nbsp;&nbsp;<div>Bible.Local PC</div></a>
 		</div>
 		<div class=linksbanneritem>
 			<a href="resources.html" class="linksbannerlink"><i class="material-icons">laptop</i>&nbsp;&nbsp;<div>Online Bibles & Resources</div></a>
@@ -46,36 +46,38 @@
 			<a href="prophecy.html" class="linksbannerlink"><i class="material-icons">cloud_upload</i>&nbsp;&nbsp;<div>Bible Prophecy</div></a>
 		</div>
 	</div>
-	<div class="bylinebanner">
-		<a href="biblelocalsd.html" class="linksbannerlink large"><i class="material-icons" style="font-size:32px;">wifi</i>&nbsp;&nbsp;<div>Serves 1,300 Bible translations over WiFi and can clone itself</div></a>
+	<div class="bylinebanner" style="padding:24px;">
+		<img src="pics/biblelocal-server-diagram-1.png" style="width:200px;">
+		<br>
+		<a href="biblelocalpc.html" class="linksbannerlink large"><i class="material-icons" style="font-size:32px;">wifi</i>&nbsp;&nbsp;<div>Your old laptop or PC can boot up as a Bible server</div></a>
 	</div>
 	
 	<div style="padding:16px 16px 16px 16px;">
 
-
 		<div class=content>
 			<div class=content-header>
-				<h3>What is Bible.Local RasPi?</h3>
+				<h3>What is Bible.Local PC?</h3>
 			</div>
 			<div style="background-color:white;">
-				<a href="pics/biblelocal-pizero2-4.png"><img src="pics/biblelocal-pizero2-4.png" class="half-width"></a>
-				<a href="pics/biblelocal-pizero2-5.png"><img src="pics/biblelocal-pizero2-5.png" class="half-width"></a>
+				<a href="pics/biblelocal-server-2.png"><img src="pics/biblelocal-server-2.png" class="half-width"></a>
+				<a href="pics/biblelocal-server-1.png"><img src="pics/biblelocal-server-1.png" class="half-width"></a>
 			</div>
 			<div class=content-text>
 				<ul>
 				<li>
-				Raspberry Pi WiFi server:
+				PC WiFi server:
 					<ul>
 					<li><a href="biblesd.html">BibleSD</a> content<br>(1,300 translations & more)</li>
 					<li><a href="https://thedisappearances.org/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/yes.html" target="_blank">RaptureKit</a></li>
 					<li><a href="https://kiwiirc.com/" target="_blank">KiwiIRC</a> chat server</li>
-					<li><a href="file:///home/giw/matt2446.us/watercarrier-html/user-manual.html#duplicate-offline" target="_blank">Self-duplication</a> tool</li>
+					<li><b>Self-duplication</b> tool</li>
+					<li><b>Bible printing</b> tool</li>
 					</ul>
 				</li>
 				<li>
 				WiFi:
 					<ul>
-					<li>SSID: <b>Living-Water</b></li>
+					<li>SSID: <b>Living-Water-PC</b></li>
 					<li>password: <b>John4-14</b></li>
 					</ul>
 				</li>
@@ -99,19 +101,15 @@
 					<table>
 						<tr>
 							<td><span class=icon-char>1.</span></td>
-							<td>Obtain a <a href="https://www.amazon.com/gp/product/B0CCRP85TR" target="_blank">Raspberry Pi Zero W 2</a> or <a href="https://www.amazon.com/gp/product/B07TD42S27" target="_blank">Raspberry Pi 4</a></td>
+							<td style="vertical-align:middle;">Obtain a <a href="https://www.amazon.com/gp/product/B09HBJT329" target="_blank">64GB</a> (or larger) USB drive.</td>
 						</tr>
 						<tr>
 							<td><span class=icon-char>2.</span></td>
-							<td>Obtain a <a href="https://www.amazon.com/gp/product/B0C1Y8CS3R" target="_blank">64GB</a> (or larger) microSD card</td>
+							<td><a href="" target="_blank">Download</a> the image file (checksum: <a href="" target="_blank">sha256</a>).</td>
 						</tr>
 						<tr>
 							<td><span class=icon-char>3.</span></td>
-							<td><a href="biblelocalsd.img.gz" target="_blank">Download</a> the image file (checksum: <a href="biblelocalsd-sha256.txt" target="_blank">sha256</a>)</td>
-						</tr>
-						<tr>
-							<td><span class=icon-char>4.</span></td>
-							<td>Write the image file to the microSD card using a program like:
+							<td>Write the image file to the USB drive using a program like:
 								<ul>
 								<li><a href="https://etcher.balena.io/#download-etcher">Balena Etcher</a></li>
 								<li><a href="https://www.raspberrypi.com/software/">Raspberry Pi Imager</a></li>
@@ -120,44 +118,90 @@
 							</td>
 						</tr>
 						<tr>
-							<td><span class=icon-char>5.</span></td>
-							<td>insert the microSD card</td>
+							<td><span class=icon-char>4.</span></td>
+							<td style="vertical-align:middle;">Insert the USB drive into a PC.</td>
 						</tr>
 					</table>
 				</div>
 				<div style="background-color:white;">
-					<img src="pics/biblelocal-pizero2-2-arrow-cropped.png">
+					<img src="pics/biblelocal-server-3.png">
+				</div>
+				<div class=content-text>
+					<table>
+						<tr>
+							<td><span class=icon-char>5.</span></td>
+							<td>Power on the PC and press the boot menu key (multiple times) when the manufacturer logo appears on screen.</td>
+						</tr>
+					</table>
+				</div>
+				<div style="background-color:white;">
+					<img src="pics/biblelocal-server-4.png" class="half-width">
+					<img src="pics/biblelocal-server-5.png" class="half-width">
 				</div>
 				<div class=content-text>
 					<table>
 						<tr>
 							<td><span class=icon-char>6.</span></td>
-							<td>Connect power and wait 2-3 minutes</td>
+							<td>Use the up and down arrow keys to select USB and press return.</td>
 						</tr>
 					</table>
 				</div>
 				<div style="background-color:white;">
-					<img src="pics/biblelocal-pizero2-6-arrow-cropped.png">
+					<img src="pics/biblelocal-server-6.png">
 				</div>
 				<div class=content-text>
 					<table>
 						<tr>
 							<td><span class=icon-char>7.</span></td>
-							<td>Connect to WiFi:<br>
-							SSID: <b>Living-Water</b><br>
-							password: <b>John4-14</b>
-							</td>
+							<td style="vertical-align:middle;">Select Bible.Local.</td>
 						</tr>
+					</table>
+				</div>
+				<div style="background-color:white;">
+					<img src="pics/biblelocal-server-7.png">
+				</div>
+				<div class=content-text>
+					<table>
 						<tr>
 							<td><span class=icon-char>8.</span></td>
-							<td>Open <b>http://bible.local</b> and change the server password in <b>System</b> > <b>Configuration</b>.</td>
+							<td>When the desktop appears, a web browser will open and display web content from <b>http://bible.local</b>.  This content can also be accessed by other devices on the same network.</td>
+						</tr>
+					</table>
+				</div>
+				<div style="background-color:white;">
+					<img src="pics/biblelocal-server-8.png">
+				</div>
+				<div class=content-text>
+					<table>
+						<tr>
+							<td><span class=icon-char>9.</span></td>
+							<td>
+								If the host computer has a wireless card or a wireless adapter is attached, the Bible.Local system will attempt to create a wireless (WiFi) network.<br>
+								<ul>
+								<li>SSID: <b>Living-Water-PC</b></li>
+								<li>password: <b>John4-14</b></li>
+								</ul>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div style="background-color:white;">
+					<img src="pics/wifi-icon-2.png" style="width:60px;">
+				</div>
+				<div class=content-text>
+					<table>
+						<tr>
+							<td colspan=2>
+								<b>Note:</b> mobile devices may need to disable data to access content over WiFi.
+								<b>Tip:</b> activate Airplane Mode, then enable WiFi.<br>
+							</td>
 						</tr>
 						<tr>
 							<td colspan=2><br>That's it!<br><br>Share the WiFi login with others and encourage them to connect and read God's Word at:<br><br><b>http://bible.local</b><br><br></td>
 						</tr>
 						<tr>
-							<td style="vertical-align:top;"><a href="watercarrier-html/user-manual.html"><i class="material-icons" style="font-size:32px;">info</i></a></td>
-							<td>See the <a href="watercarrier-html/user-manual.html">User Manual</a> for more information.<br><br></td>
+							<td style="vertical-align:top;"><a href="watercarrier-html/user-manual.html" target ="_blank"><i class="material-icons" style="font-size:32px;">info</i></a></td>
+							<td>See the <a href="watercarrier-html/user-manual.html" target ="_blank">User Manual</a> for more information.<br><br></td>
 						</tr>
 					</table>
 				</div>
@@ -165,35 +209,16 @@
 		</div>
 
 
-		<div class=content>
-			<div class=content-header>
-				<h3>Build a Display Stand</h3>
-			</div>
-			<div style="background-color:white;">
-				<a href="pics/biblelocal-display-photo-front.jpg"><img src="pics/biblelocal-display-photo-front.jpg"  class="half-width"></a>
-				<a href="pics/biblelocal-stand-duplication.png"><img src="pics/biblelocal-stand-duplication.png"  class="half-width"></a>
-			</div>
-			<div class=content-text>
-				<table class="item-table">
-				<tr><th>Item</th><th>Cost</th></tr>
-				<tr><td><a href="https://www.amazon.com/gp/product/B07TJR88RG" target="_blank">Display stand</a></td><td>$5</td></tr>
-				<tr><td><a href="pics/biblelocal-display-5.pdf" target="_blank">Multilingual Poster</a></td><td>-</td></tr>
-				<tr><td><a href="https://www.amazon.com/gp/product/B0CCRP85TR" target="_blank">Raspberry Pi Zero 2 W</a></td><td>$23</td></tr>
-				<tr><td><a href="https://www.amazon.com/gp/product/B06Y593MHV" target="_blank">Raspberry Pi Zero case</a></td><td>$6</td></tr>
-				<tr><td><a href="https://www.amazon.com/gp/product/B08T6QSBPJ" target="_blank">64GB microSD card</a></td><td>$7</td></tr>
-				<tr><td><a href="https://www.startech.com/en-us/cables/uusbotgra" target="_blank">USB OTG cable</a></td><td>$8</td></tr>
-				<tr><td><a href="https://www.amazon.com/gp/product/B09FP2PXJM/ref=ox_sc_act_image_1?smid=A210SJF12S88M5&psc=1" target="_blank">MicroSD reader/writer</a></td><td>$15</td></tr>
-				<tr><td><a href="https://www.amazon.com/gp/product/B0D128W9B1" target="_blank">Foam mounting tape</a></td><td>-</td></tr>
-				</table>
-			</div>
-		</div>
+		<!--<div style="display:inline-block;">
+				<img src="pics/biblelocal-server-diagram-2.png" style="width:300px;">
+		</div>-->
 
-		<div class=content>
+		<!--<div class=content>
 			<div class=content-header>
 				<h3>Content Preview <a href="watercarrier-html/index.html"><span style="font-weight:bold;color:white;background-color:gray;border-radius:3px;">&nbsp;direct&nbsp;link&nbsp;</span></a></h3>
 			</div>
 			<iframe src="watercarrier-html/index.html" class="scroll"></iframe>
-		</div>
+		</div>-->
 
 
 	</div>
