@@ -117,6 +117,11 @@ a:hover {
 	background-color:rgba(0,0,0,0.3);
 	width:100%;
 }
+.bylinebanner img {
+	max-width:300px;
+	margin: 8px 24px 24px 24px;
+	vertical-align: middle;
+}
 .bottombanner {
 	min-height:64px;
 }
