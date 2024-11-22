@@ -114,12 +114,12 @@ a:hover {
 	padding:8px 0 8px 0;
 }
 .bylinebanner {
-	background-color:rgba(0,0,0,0.3);
+	background-color:rgba(0,0,0,0.5);
 	width:100%;
 }
 .bylinebanner img {
 	max-width:300px;
-	margin: 8px 24px 24px 24px;
+	margin: 8px 24px 0 24px;
 	vertical-align: middle;
 }
 .bottombanner {
@@ -242,5 +242,8 @@ a:hover {
 .item-table td {
 	padding:2px 8px 2px 8px;
 	vertical-align:middle;
+}
+.main-div {
+	padding:32px 16px 32px 16px;
 }
 
