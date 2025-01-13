@@ -1,0 +1,64 @@
+Hey how's it going? You want to hear about this device and what it can do?
+For starters, it creates a WiFi network and lets you read *1,300* Bible translations... and a bunch of other stuff -- I'll get to that...
+
+Am I selling these?  Nope! But I'll show you how to make one.
+<point to all the parts laid out>
+See these parts?  This is all you need to make one of these.
+
+If you just want the core of the system, it's simply this and this... <slip microSD into slot>
+Plug in a USB phone charger with the microUSB style plug, and that's it!  It creates a WiFi network and you can access to everythying with a smartphone or laptop.
+
+To find out more, visit matt2446.us
+<hold up sign> Matt2446.us
+
+<grab the Bible>
+In Matt 24:46 it says "Blessed is that servant whom his lord finds doing so when he comes."  Doing what?
+
+<put down Bible and pick up smartphone>
+If you're like most people, the first thing you probably reach for these days is a smartphone!
+Let's start in verse 44:
+"Therefore also be ready, for in an hour that you don’t expect, the Son of Man will come.
+Who then is the faithful and wise servant, whom his lord has set over his household, to give them their food in due season?
+Blessed is that servant whom his lord finds doing so when he comes."
+
+I want to be a faithful and wise servant!  That's a servant who is *ready* and *feeding* the Word of God to brothers and sisters.
+
+Wait, ready for what?
+1 Thess 4:16-17 says
+"For the Lord himself will descend from heaven with a shout, with the voice of the archangel and with God’s trumpet.
+The dead in Christ will rise first, then we who are alive, who are left, will be caught up together with them in the clouds to meet the Lord in the air.
+So we will be with the Lord forever."
+
+"caught up"... I wonder what that means, Oh I love modern technology, I can click the verse and see all the Greek words and translations!
+
+Even the pronounciation in English "harpagēsometha".  I can click the Strongs number and get the root word "harpazō": "to seize, catch up, snatch away"
+
+<gesturing being caught up, stands up and and trips>
+
+<get back up and look at phone in dismay>
+This site can't be reached?!?  <looks down and picks up end of ethernet cord>  Oh, is this the problem?  Nope! I just touched Airplane Mode.
+
+But you know, that reminds me of when my wife and I and kids spent a year in a certain Asian country.  We found out there were websites that weren't always accessable.
+Some countries restrict access to certain websites or track those who access certain sites.
+
+And, in the event of "harpazo", there may not be web admins around to maintain websites like BibleHub, BibleGateway, or BlueLetterBible...
+...if the government system of this world, in that future period, even allows it.
+
+
+But wait!  If I have one of these Raspberry Pi Bible.Local servers, I can connect to it and I have my own Bible website, very similar to BibleHub.com!
+
+<grab microSD card>
+So right now, what you can do, since the website is probably still up if you're able to watch this on YouTube...
+...Is click the download link on the website to download the image file and write that image file onto this microSD card.
+If you're not sure how to write an image file to a microSD card, I'll show you how to do that.  But there's also another way!
+
+If I have a friend who already has one of these devices, all I need to do is insert my microSD card into his device... like this...
+Now on his connected device, my microSD card shows as a device.  Just click the blue button beside the microSD card and... now it's copying!
+It usually takes about a half hour, depending on the speed of your microSD card.
+
+Now you can insert your card into a Raspberry Pi board, power on the board, and you have your *own* Bible website, complete with 1,300 Bible translations, Greek and Hebrew, and some other stuff!
+
+
+
+
+
