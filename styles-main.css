@@ -142,11 +142,13 @@ a:hover {
 }
 .bottombanner {
 	min-height:64px;
+	padding-top:24px;
+	padding-bottom:24px;
 }
 .linksbanneritem {
 	vertical-align:middle;
 	display:inline-block;
-	margin:0 32px 0 24px;
+	margin:0 32px 0 32px;
 	min-width:120px;
 }
 .linksbannerimg {
